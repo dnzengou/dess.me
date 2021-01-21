@@ -9784,7 +9784,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #f4623a !important;
+  color: rgba(244, 98, 58, 0.9) !important; /*style="background-color:#F4623A", rgba(244, 98, 58, 0.9)*/
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10132,7 +10132,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0.8;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9); /*rgba(189, 183, 179, 0.4)*/
+  background: rgba(244, 98, 58, 0.9); /*rgba(189, 183, 179, 0.4), #F4623A*/
   transition: opacity 0.25s ease;
   text-align: center;
 }

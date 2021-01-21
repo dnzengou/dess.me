@@ -68,6 +68,11 @@ body {
   text-align: left;
   background-color: #fff;
 }
+#me{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -477,6 +482,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 0.25rem;
 }
 
 .img-thumbnail {
@@ -486,6 +492,8 @@ mark,
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
+}
+
 }
 
 .figure {
@@ -9709,7 +9717,7 @@ button.bg-dark:focus {
     text-align: center !important;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: F992px) {
   .text-lg-left {
     text-align: left !important;
   }
@@ -10144,7 +10152,5 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
-img {
-  border-radius: 100%;
-}
+
 </style>

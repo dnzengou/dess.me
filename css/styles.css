@@ -10130,9 +10130,9 @@ header.masthead h1 {
   position: absolute;
   bottom: 0;
   text-align: center;
-  opacity: 0.8;
+  opacity: 1; /*0.8*/
   color: #fff;
-  background: rgba(244, 98, 58, 0.9); /*rgba(189, 183, 179, 0.4), #F4623A*/
+  background: #d6370c; /*rgba(189, 183, 179, 0.4), #F4623A*, rgba(244, 98, 58, 0.9)*/
   transition: opacity 0.25s ease;
   text-align: center;
 }
@@ -10146,7 +10146,7 @@ header.masthead h1 {
   font-size: 1.2rem;
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
+  opacity: 0.8; /* hovering effect over portfolio items*/
 }
 
 .text-white-75 {

@@ -68,6 +68,11 @@ body {
   text-align: left;
   background-color: #fff;
 }
+#me{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -477,6 +482,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 0.25rem;
 }
 
 .img-thumbnail {
@@ -486,6 +492,8 @@ mark,
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
+}
+
 }
 
 .figure {
@@ -9709,7 +9717,7 @@ button.bg-dark:focus {
     text-align: center !important;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: F992px) {
   .text-lg-left {
     text-align: left !important;
   }
@@ -9776,7 +9784,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #f4623a !important;
+  color: rgba(244, 98, 58, 0.9) !important; /*style="background-color:#F4623A", rgba(244, 98, 58, 0.9)*/
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10122,9 +10130,9 @@ header.masthead h1 {
   position: absolute;
   bottom: 0;
   text-align: center;
-  opacity: 0;
+  opacity: 1; /*0.8*/
   color: #fff;
-  background: rgba(244, 98, 58, 0.9); /*rgba(189, 183, 179, 0.4)*/
+  background: #d6370c; /*rgba(189, 183, 179, 0.4), #F4623A*, rgba(244, 98, 58, 0.9)*/
   transition: opacity 0.25s ease;
   text-align: center;
 }
@@ -10138,9 +10146,11 @@ header.masthead h1 {
   font-size: 1.2rem;
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
+  opacity: 0.8; /* hovering effect over portfolio items*/
 }
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+
+</style>

@@ -2,14 +2,20 @@
 <html lang="en">
     <head>
         <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76586418-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-76586418-3');
-</script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76586418-3"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-76586418-3');
+        </script>
+        <!-- re -->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script>
+            function onSubmit(token) {
+         document.getElementById("demo-form").submit();
+            }
+        </script>
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -200,14 +206,14 @@ What drives me? Fun challenges, learn new things, travels and exploring new cult
                             <i class="fas fa-4x fa-magic mb-4" style="color:#f34f22"></i>
                             <!--#F4623A-->
                             <h3 class="h4 mb-2">Startup Coaching</h3>
-                            <p class="text-muted mb-0">Strategy and planning for problem and solution exploration. </p> Identification and selection <p> Product or service design </p> Pitch and business model training <p> Rrevenue modeling (SaaS/HaaS/PaaS/e-com)</p> Web analytics and Search Engine Optimization (SEO), Content marketing, Conversion funnel</p>
+                            <p class="text-muted mb-0">Strategy and planning for problem and solution exploration. </p> Identification and selection <p> Product or service design </p> Pitch and business model training <p> Rrevenue modeling (SaaS/HaaS/PaaS/e-com)</p> Web analytics and Search Engine Optimization (SEO), Content marketing, Conversion funnel<p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <i class="fas fa-4x fa-graduation-cap mb-4" style="color:#F4623A"></i>
                             <h3 class="h4 mb-2">Curriculum & Learning Material Development</h3>
-                            <p class="text-muted mb-0">Identifying user needs <p> Gathering resources from research or subject-matter experts </p> Develop training materials over various levels of understanding </p> Deploy course modules to beta -then live- learners, measure progress, build data visualizations and reporting to audience and management.</p>
+                            <p class="text-muted mb-0">Identifying user needs <p> Gathering resources from research or subject-matter experts </p> Develop training materials over various levels of understanding <p> Deploy course modules to beta -then live- learners, measure progress, build data visualizations and reporting to audience and management.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
@@ -368,7 +374,6 @@ What drives me? Fun challenges, learn new things, travels and exploring new cult
                     </div>
                 </div>
             </div>
-        </div>
 </section>
         
         <!-- testimonials-->
@@ -397,12 +402,30 @@ What drives me? Fun challenges, learn new things, travels and exploring new cult
 </div>
 
 <br>
-
                        
         <!-- Footer-->
         <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">&copy; 2020-2023 <a href="http://desiredsolutions.me" style="color:#F4623A" target="_blank"> desiredsolutions </a> made with <i class="fa fa-coffee" style="color:brown"></i> and <i class="fa fa-heart" style="color:pink"></i> by <a href="http://desireyavro.com" style="color:#F4623A" target="_blank"> desireyavro </a></div></div>
+            <div class="container">
+                <div class="small text-center text-muted">&copy; 2020-2023 <a href="http://desiredsolutions.me" style="color:#F4623A" target="_blank"> desiredsolutions </a> <p>Made with <i class="fa fa-coffee" style="color:brown"></i> and <i class="fa fa-heart" style="color:pink"></i> by <a href="http://desireyavro.com" style="color:#F4623A" target="_blank"> desireyavro </a></p>
+                    <br><hr>
+                    
+                    <i class="small text-center">This site is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy" style="color:#F4623A" target="_blank">Google Privacy Policy </a>and <a href="https://policies.google.com/terms" style="color:#F4623A" target="_blank">Terms of Service </a>apply.</i>
+                </div>
+        
+        <!-- reCAPTCHA v2 invisible-->
+    <form id="demo-form" action="?" method="POST">
+      <button class="g-recaptcha" data-sitekey="6LfjJ_AjAAAAAHKlQ2D_GoICvtMocK1agm-RkfOh" data-callback="onSubmit" style="padding: 0; border: none; background: none;"></button>
+      <br/>
+    </form>
+            </div>
         </footer>
+        
+        <!-- reCAPTCHA v2 checkbox-->
+    <!--<form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6Lc5M_AjAAAAAJ1bYwQoGH562RnuoVuSrPQ_0LN_"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>-->
         
         <!-- Bootstrap core JS-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
